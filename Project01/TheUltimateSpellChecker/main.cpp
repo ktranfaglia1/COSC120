@@ -84,7 +84,7 @@ bool PopulateVector(vector<string> &vec, string str, string &fileName) {
 	cout << "Input " << str << " filename: "; // Gets file name to open file
 	cin >> fileName;
 	
-	inputFile.open("Project1Files/" + fileName); // Opens the file
+	inputFile.open(fileName); // Opens the file
 	
 	// Checks if the file opened. If the file opened correctly, the program skips over this block of code. Otherwise, the
 	// comparison is true and an error message will be displayed and the function retruns true

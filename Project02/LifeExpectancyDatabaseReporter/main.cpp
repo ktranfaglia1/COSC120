@@ -113,7 +113,7 @@ bool PopulateDataBase(vector<LifeExp> &dataBase) {
 	int pos = 0, lastPos = 0;
 	
 	// Opens File
-	file.open("Project2Files/LifeExpWorld.txt", ios::in);
+	file.open("LifeExpWorld.txt", ios::in);
 	// Checks if file opened and returns true and error message if the file did not open
 	if (!file) {
 		cerr << "Error opening file.\n";
